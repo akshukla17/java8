@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 
-public class Unit1Exercise {
+public class Unit1ExerciseSolutionJava7 {
 
 	public static void main(String[] args) {
 		Sorting s=new Sorting();
