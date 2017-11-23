@@ -1,0 +1,38 @@
+OOT interfaces
+prodicate functional interface 
+BiConsumer interface
+-------------
+
+closure example 
+
+
+This references
+
+in the ananonymous class , this reference refer the current instace of the class.
+
+while in the lambda expression, this reference the class which is refer out site the lambda expression.
+
+
+Method Reference:
+
+it is applicable when we have no argument in lambda and call something.
+like 
+	() -> method()  will be replces ClassName::methodName.
+	
+	if we have lambda expression like p -> System.out.println(p)
+	this will also replace with  System.out::println . because System.out is a reference and calling println method which need a parameter and print it.
+-------------------------
+Enternal Iterator:
+					those iterator where we are managing the control for iterator of the objects.
+example : for loop == where  we are initializing the index and iterating over that.
+	or 
+			for each loop== where we are saying the for each object of person, assign to the p variable and print it.
+			
+Internale iterator: 
+					which say I need this to iterator but I don't want to tell which fashion. Let it descide at run time.
+---------------Streams------------------------------------------------
+
+Streams are the powerful operation which help to reduce line of code.
+
+
+	
