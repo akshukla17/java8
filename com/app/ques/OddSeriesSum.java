@@ -2,7 +2,7 @@ package com.app.ques;
 /*
 Given the value of n, we need to find the sum of the series where i-th term is sum of first i odd natural numbers.
 
-Note:- Sum of the series 1 + (1+3) + (1+3+5) + (1+3+5+7) + …… + (1+3+5+7+…+(2n-1))
+Note:- Sum of the series 1 + (1+3) + (1+3+5) + (1+3+5+7) + ï¿½ï¿½ + (1+3+5+7+ï¿½+(2n-1))
 
 Input:
 2

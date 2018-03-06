@@ -1,3 +1,5 @@
+package com.app.interview.oops;
+
 import java.lang.Exception;
 class Animal{
 	public void sleep() throws CustomException{

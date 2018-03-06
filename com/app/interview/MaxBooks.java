@@ -1,3 +1,5 @@
+package com.app.interview;
+
 import java.util.List;
 import java.util.ArrayList;
 public class MaxBooks{
@@ -20,7 +22,7 @@ public class MaxBooks{
 		//System.out.println(min);
 		books = (int) Math.ceil(amount*min);
 		//System.out.println(books);
-		return books;
+		//return books;
 		
 	}
 }

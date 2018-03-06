@@ -1,3 +1,5 @@
+package com.app.interview;
+
 public class MaxStockProfitWithTransctionFee{
 	public static void main(String[]args){
 		int[] a={31,4,5,9,12,4,2,5,4,1,12,14};
@@ -13,7 +15,7 @@ public class MaxStockProfitWithTransctionFee{
 		for(int i=0;i<a.length;i++){
 			tmpBuy=buy;
 			profit=Math.max(profit,a[i]);
-			sell=math.max(sell,tmpBuy+a[i]-fee);
+			sell=Math.max(sell,tmpBuy+a[i]-fee);
 		}
 		
 		return profit;

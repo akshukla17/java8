@@ -1,3 +1,5 @@
+package com.app.interview;
+
 public class ReverseEachWords{
 	// reverse the given string.
 	// this is javatpoint >>  siht si tnioptavaj

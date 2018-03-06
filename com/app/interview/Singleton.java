@@ -1,3 +1,5 @@
+package com.app.interview;
+
 public class Singleton{
 	public static void main(String[]args){
 		

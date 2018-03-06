@@ -1,3 +1,5 @@
+package com.app.interview;
+
 public class FirstNonRepetativeCharacter{
 	//find first non repeatative character in given string
 	

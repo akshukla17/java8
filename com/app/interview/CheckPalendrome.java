@@ -1,8 +1,11 @@
+package com.app.interview;
+
 public class CheckPalendrome{
 	// check given string is palendrome or not
 		public static void main(String []args){
-			String s=args[0].trim();
+			String s="malam ara malam";
 			System.out.println("Given string >>  "+s+" >> is palendrome: "+checkPalendrome(s));
+			System.out.println("Given string >>  "+s+" >> is palendrome: "+checkRecursive(s));
 		}
 		public static boolean checkPalendrome(String s){
 			int l=s.length();
@@ -19,5 +22,16 @@ public class CheckPalendrome{
 				
 			}
 			return isPalendrome;
+		}
+		public static boolean checkRecursive(String s) {
+			if(s==null)return false;
+			if(s.length()==1) return true;
+			if(s.charAt(0)!=s.charAt(s.length()-1)) {
+				return false;
+			}
+			else {
+				return checkPalendrome(s.substring(1, s.length()-1));
+			}
+			
 		}
 }

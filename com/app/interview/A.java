@@ -1,3 +1,5 @@
+package com.app.interview;
+
 public class A{
 	public static void main(String []a){
 		StringBuffer sb=new StringBuffer();

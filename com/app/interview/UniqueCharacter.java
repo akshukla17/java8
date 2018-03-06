@@ -1,3 +1,5 @@
+package com.app.interview;
+
 import java.util.*;
 public class UniqueCharacter{
 	public static void main(String []a){

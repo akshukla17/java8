@@ -1,3 +1,5 @@
+package com.app.interview;
+
 public class PassBy{
 	public static void main(String[]args){
 		Dog d=new Dog("puppy");

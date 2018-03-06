@@ -1,11 +1,11 @@
-import java.util.ArrayList;
+package com.app.stream;
+
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.IntSummaryStatistics;
 import java.util.List;
-import java.util.Random;
+import java.util.Set;
 import java.util.stream.Collectors;
-import java.util.Map;
-import java.util.*;
 public class Java8Streams {
 
    public static void main(String args[]) {
@@ -35,6 +35,7 @@ public class Java8Streams {
        System.out.println("Highest number in List : \n"+
             numbers.stream()
                     .max((a,b) -> a>b?1:-1));
+       
         System.out.println("Lowest number in List : \n"+
             numbers.stream()
                     .min((a,b) -> a>b?1:-1));

@@ -1,8 +1,9 @@
-import java.io.*;
-import java.util.*;
-import java.util.concurrent.*;
+package com.app.interview;
 
-public class Test {
+import java.util.Comparator;
+import java.util.TreeSet;
+
+public class TestComparator {
     
     public static void main (String[] args) {
         
