@@ -1,6 +1,6 @@
 package com.app.leet;
 
-import com.app.sort.Print;
+import com.logic.sort.Print;
 
 public class MinCost {
 

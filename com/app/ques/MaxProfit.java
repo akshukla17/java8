@@ -2,7 +2,8 @@ package com.app.ques;
 
 import java.util.Scanner;
 
-import com.app.sort.Print;
+import com.logic.sort.Print;
+
 
 public class MaxProfit {
 
