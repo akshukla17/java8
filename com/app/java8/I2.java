@@ -4,7 +4,7 @@ package com.app.java8;
 public interface I2 {
 	void get();
 	default void display() {
-		System.out.println("I1 display");
+		System.out.println("I2 display");
 	}
 
 }

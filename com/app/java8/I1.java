@@ -3,7 +3,9 @@ package com.app.java8;
 @FunctionalInterface
 public interface I1 {
 
-	
+	@Override
+    public abstract boolean equals(java.lang.Object arg);
+
 	void get();
 	default void display() {
 		System.out.println("I1 display");
